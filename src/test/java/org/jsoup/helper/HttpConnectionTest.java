@@ -124,6 +124,13 @@ public class HttpConnectionTest {
         assertTrue(headers.get("Accept") == null);
     }
 
+    @Test
+    public void shouldSupportSpecialCharacters() {
+        Connection.Request req = new HttpConnection.Request();
+        req.addHeader("Foo", "açúcar");
+        assertEquals("acucar", req.header("foo"));
+    }
+
     @Test public void ignoresEmptySetCookies() {
         // prep http response header map
         Map<String, List<String>> headers = new HashMap<>();
