@@ -421,8 +421,7 @@ public class HttpConnection implements Connection {
                     return false;
                 }
 
-                while (i < end) {
-                    i++;
+                for (;i < end; i++) {
                     o = input[i];
                     if ((o & 0xC0) != 0x80) {
                         return false;
