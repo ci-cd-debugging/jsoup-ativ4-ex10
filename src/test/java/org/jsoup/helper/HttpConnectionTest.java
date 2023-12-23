@@ -127,8 +127,8 @@ public class HttpConnectionTest {
     @Test
     public void shouldSupportSpecialCharacters() {
         Connection.Request req = new HttpConnection.Request();
-        req.addHeader("Foo", "açúcar");
-        assertEquals("acucar", req.header("foo"));
+        req.addHeader("Foo", "é");
+        assertEquals("é", req.header("foo"));
     }
 
     @Test public void ignoresEmptySetCookies() {
