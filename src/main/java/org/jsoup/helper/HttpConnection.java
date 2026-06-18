@@ -421,6 +421,10 @@ public class HttpConnection implements Connection {
                     return false;
                 }
 
+                if (end >= input.length) {
+                    return false;
+                }
+
                 while (i < end) {
                     i++;
                     o = input[i];
