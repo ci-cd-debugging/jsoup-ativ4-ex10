@@ -1,0 +1,99 @@
+2026-06-18 00:19:04.189 [info] Fetched model metadata in 712ms 32c07cf9-0867-40e7-a730-ac4ff3107aa3
+2026-06-18 00:19:04.324 [info] ccreq:58e130af.copilotmd | markdown
+2026-06-18 00:19:07.908 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:19:07.913 [info] request done: requestId: [33425d2d-3e8d-45d3-bc29-205f6f7519e5] model deployment ID: []
+2026-06-18 00:19:07.915 [info] ccreq:badc2c5b.copilotmd | success | gpt-4o-mini-2024-07-18 | 3552ms | [title]
+2026-06-18 00:19:11.326 [info] ccreq:45015419.copilotmd | success | gpt-5-mini | 5988ms | [panel/editAgent]
+2026-06-18 00:19:13.383 [info] ccreq:d0fb1ad4.copilotmd | success | gpt-5-mini -> capi-cus-ptuc-h100-ib-gpt-5-mini-2025-08-07 | 1173ms | [panel/editAgent]
+2026-06-18 00:19:52.495 [info] ccreq:2c3ac249.copilotmd | success | gpt-5-mini | 967ms | [panel/editAgent]
+2026-06-18 00:19:52.575 [error] Error from tool read_file with args {"filePath":"target/jaguar2.xml","startLine":1,"endLine":400}: Invalid input path: target/jaguar2.xml. Be sure to use an absolute path.: Error: Invalid input path: target/jaguar2.xml. Be sure to use an absolute path.
+	at Tc (/home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/extensions/copilot/dist/extension.js:2181:1980)
+	at IMe.prepareInvocation (/home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/extensions/copilot/dist/extension.js:6143:4013)
+	at Ak.$prepareToolInvocation (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:655:5310)
+	at i._doInvokeHandler (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:157801)
+	at i._invokeHandler (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:157549)
+	at i._receiveRequest (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:156280)
+	at i._receiveOneMessage (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:155169)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:153244)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:837:9944)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at vc._receiveMessage (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:13405)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:10710)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at qI.acceptChunk (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:6305)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:5438)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at sD._processReadQueue (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:25402)
+	at sD.acceptFrame (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:25062)
+	at jI._acceptChunk (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:22734)
+	at file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:19307
+	at Socket.e (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:17539)
+	at Socket.emit (node:events:509:28)
+	at addChunk (node:internal/streams/readable:563:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+	at Readable.push (node:internal/streams/readable:394:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-18 00:19:54.940 [info] ccreq:1fc4eb60.copilotmd | success | gpt-5-mini | 2281ms | [panel/editAgent]
+2026-06-18 00:19:59.359 [info] ccreq:f7265426.copilotmd | success | gpt-5-mini | 4094ms | [panel/editAgent]
+2026-06-18 00:20:00.279 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-06-18 00:20:00.905 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:00.909 [info] request done: requestId: [a8ec80cc-82f5-4dc2-a9ab-889ac80c10d9] model deployment ID: []
+2026-06-18 00:20:00.910 [info] ccreq:6b6f33b2.copilotmd | success | gpt-4o-mini-2024-07-18 | 746ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:03.506 [info] ccreq:a356977c.copilotmd | success | gpt-5-mini | 2670ms | [panel/editAgent]
+2026-06-18 00:20:05.701 [info] ccreq:8ad117d7.copilotmd | success | gpt-5-mini | 945ms | [panel/editAgent]
+2026-06-18 00:20:16.231 [info] ccreq:1bdeaadc.copilotmd | success | gpt-5-mini | 10274ms | [panel/editAgent]
+2026-06-18 00:20:18.936 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:18.938 [info] request done: requestId: [37d846f7-e7fa-43d6-a472-0dc473f60ff7] model deployment ID: []
+2026-06-18 00:20:18.939 [info] ccreq:5775ab0b.copilotmd | success | gpt-4o-mini-2024-07-18 | 641ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:20.637 [info] ccreq:078485ca.copilotmd | success | gpt-5-mini | 2053ms | [panel/editAgent]
+2026-06-18 00:20:26.167 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:26.169 [info] request done: requestId: [0ed4a875-b2b0-4b34-81d6-0241f4b4b019] model deployment ID: []
+2026-06-18 00:20:26.170 [info] ccreq:91c1c56c.copilotmd | success | gpt-4o-mini-2024-07-18 | 5005ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:34.956 [info] ccreq:1a5aa45a.copilotmd | success | gpt-5-mini | 13630ms | [panel/editAgent]
+2026-06-18 00:20:35.718 [info] Logged in as ericksonlbs
+2026-06-18 00:20:36.216 [info] Got Copilot token for ericksonlbs
+2026-06-18 00:20:36.216 [info] Copilot Chat: 0.52.0, VS Code: 1.124.2
+2026-06-18 00:20:36.405 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-18 00:20:36.405 [info] copilot token sku: monthly_subscriber_quota
+2026-06-18 00:20:36.405 [info] [code-referencing] Public code references are enabled.
+2026-06-18 00:20:36.622 [info] Fetched model metadata in 217ms 95eb04bc-7cb2-4fa9-bf12-69a05333e274
+2026-06-18 00:20:36.626 [info] ccreq:d439c03b.copilotmd | markdown
+2026-06-18 00:20:38.696 [info] ccreq:4a182b7f.copilotmd | success | gpt-5-mini | 3239ms | [panel/editAgent]
+2026-06-18 00:20:39.163 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:39.167 [info] request done: requestId: [fcad532e-2b49-42a9-a749-ea8536e5a015] model deployment ID: []
+2026-06-18 00:20:39.168 [info] ccreq:b1624fed.copilotmd | success | gpt-4o-mini-2024-07-18 | 676ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:40.798 [info] ccreq:8df51037.copilotmd | success | gpt-5-mini | 1669ms | [panel/editAgent]
+2026-06-18 00:21:10.225 [info] ccreq:e73672c7.copilotmd | success | gpt-5-mini | 3096ms | [panel/editAgent]
+2026-06-18 00:21:11.910 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:21:11.912 [info] request done: requestId: [b5583c01-7482-4339-a6dc-9234825ed71b] model deployment ID: []
+2026-06-18 00:21:11.913 [info] ccreq:34cdfa5e.copilotmd | success | gpt-4o-mini-2024-07-18 | 804ms | [copilotLanguageModelWrapper]
+2026-06-18 00:21:41.315 [info] ccreq:3839e075.copilotmd | success | gpt-5-mini | 1393ms | [panel/editAgent]
+2026-06-18 00:21:44.671 [info] ccreq:32d34d1f.copilotmd | success | gpt-5-mini | 3002ms | [panel/editAgent]
+2026-06-18 00:21:45.988 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:21:45.991 [info] request done: requestId: [897ad937-8ec1-4da1-9f82-e24ab0157570] model deployment ID: []
+2026-06-18 00:21:45.992 [info] ccreq:623ae820.copilotmd | success | gpt-4o-mini-2024-07-18 | 669ms | [copilotLanguageModelWrapper]
+2026-06-18 00:21:47.002 [info] ccreq:4791b610.copilotmd | success | gpt-5-mini | 1388ms | [panel/editAgent]
+2026-06-18 00:21:50.215 [info] ccreq:c769d908.copilotmd | success | gpt-5-mini | 2911ms | [panel/editAgent]
+2026-06-18 00:22:22.228 [info] ccreq:14c8224a.copilotmd | success | gpt-5-mini | 6254ms | [panel/editAgent]
+2026-06-18 00:22:29.969 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:22:29.975 [info] request done: requestId: [9c866f07-7477-485f-83e6-aa1268e49b28] model deployment ID: []
+2026-06-18 00:22:29.976 [info] ccreq:536ae414.copilotmd | success | gpt-4o-mini-2024-07-18 | 5118ms | [copilotLanguageModelWrapper]
+2026-06-18 00:23:01.418 [info] ccreq:1ebdd379.copilotmd | success | gpt-5-mini | 1519ms | [panel/editAgent]
+2026-06-18 00:23:08.783 [info] ccreq:0cc8ddea.copilotmd | success | gpt-5-mini | 6917ms | [panel/editAgent]
+2026-06-18 00:23:13.864 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:23:13.868 [info] request done: requestId: [6776c5c8-4e6a-45c7-bf72-fb91d96739b5] model deployment ID: []
+2026-06-18 00:23:13.869 [info] ccreq:bb8dcf2c.copilotmd | success | gpt-4o-mini-2024-07-18 | 1536ms | [copilotLanguageModelWrapper]
+2026-06-18 00:23:22.796 [info] ccreq:6bf21d2c.copilotmd | success | gpt-5-mini | 10134ms | [panel/editAgent]
+2026-06-18 00:23:24.758 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:23:24.760 [info] request done: requestId: [3a9fbb9c-20ca-424c-ac6c-dd0786ec5da2] model deployment ID: []
+2026-06-18 00:23:24.761 [info] ccreq:7ca39097.copilotmd | success | gpt-4o-mini-2024-07-18 | 689ms | [copilotLanguageModelWrapper]
+2026-06-18 00:23:24.909 [info] ccreq:1efd4539.copilotmd | success | gpt-5-mini | 1684ms | [panel/editAgent]
+2026-06-18 00:23:27.757 [info] ccreq:0d45e5d5.copilotmd | success | gpt-5-mini | 2646ms | [panel/editAgent]
+2026-06-18 00:23:28.296 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined

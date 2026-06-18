@@ -1,0 +1,335 @@
+# <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a7 7 0 1 1-7 7a7.01 7.01 0 0 1 7-7M2 8c0 1.418.504 2.79 1.423 3.87l8.447-8.447A5.993 5.993 0 0 0 2 8m12 0c0-1.418-.504-2.79-1.423-3.87L4.13 12.577A5.993 5.993 0 0 0 14 8"/></svg> Ghost | copilot.log (v2) (Request #151)
+💡 Tip: double-click anywhere to open this file as text to copy-paste content into an issue.
+
+<details><summary>Explanation for icons</summary>
+
+- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M11.67 8.658a3.7 3.7 0 0 0-.781 1.114a3.3 3.3 0 0 0-.268 1.329v1.6a1.3 1.3 0 0 1-.794 1.197a1.3 1.3 0 0 1-.509.102H7.712a1.3 1.3 0 0 1-.922-.379a1.3 1.3 0 0 1-.38-.92v-1.6q0-.718-.274-1.329a3.6 3.6 0 0 0-.776-1.114a4.7 4.7 0 0 1-1.006-1.437A4.2 4.2 0 0 1 4 5.5a4.43 4.43 0 0 1 .616-2.27q.296-.504.705-.914a4.6 4.6 0 0 1 .911-.702q.508-.294 1.084-.454a4.5 4.5 0 0 1 1.2-.16a4.5 4.5 0 0 1 2.276.614a4.5 4.5 0 0 1 1.622 1.616a4.44 4.44 0 0 1 .616 2.27q0 .926-.353 1.721a4.7 4.7 0 0 1-1.006 1.437zM9.623 10.5H7.409v2.201q-.001.12.09.212a.3.3 0 0 0 .213.09h1.606a.3.3 0 0 0 .213-.09a.3.3 0 0 0 .09-.212V10.5z" clip-rule="evenodd"/></svg> - model had suggestions
+
+- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M8 1a7 7 0 1 1-7 7a7.01 7.01 0 0 1 7-7M2 8c0 1.418.504 2.79 1.423 3.87l8.447-8.447A5.993 5.993 0 0 0 2 8m12 0c0-1.418-.504-2.79-1.423-3.87L4.13 12.577A5.993 5.993 0 0 0 14 8"/></svg> - model had NO suggestions
+
+- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M13 3.5C13 2.119 10.761 1 8 1S3 2.119 3 3.5c0 .04.02.077.024.117H3v8.872l.056.357C3.336 14.056 5.429 15 8 15s4.664-.944 4.944-2.154l.056-.357V3.617h-.024c.004-.04.024-.077.024-.117M8 2.032c2.442 0 4 .964 4 1.468s-1.558 1.468-4 1.468S4 4 4 3.5s1.558-1.468 4-1.468m4 10.458l-.03.131C11.855 13.116 10.431 14 8 14s-3.855-.884-3.97-1.379L4 12.49v-7.5A7.4 7.4 0 0 0 8 6a7.4 7.4 0 0 0 4-1.014z"/></svg> - response is from cache
+
+- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M5 3.254V3.25v.005zm0-.004a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0m8.001 9.5a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0M11.5 12a.75.75 0 1 1 1.502 0a.75.75 0 0 1-1.502 0M3.75 2a1.25 1.25 0 0 0-.25 2.474V9.07A3.997 3.997 0 0 0 7.5 12.98v.046a1.25 1.25 0 1 0 1 0v-.046a3.997 3.997 0 0 0 3-3.473V7.5A2.5 2.5 0 0 0 9 5H7a2.5 2.5 0 0 0-2.5 2.5v2.026A2.997 2.997 0 0 1 2.5 7V4.474A1.25 1.25 0 0 0 3.75 2" clip-rule="evenodd"/></svg> - joined an in-flight request (async or speculative reuse)
+
+- <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8.6 1c1.6.1 3.1.9 4.2 2c1.3 1.4 2 3.1 2 5.1c0 1.6-.6 3.1-1.6 4.4c-1 1.2-2.4 2.1-4 2.4s-3.2.1-4.6-.7s-2.5-2-3.1-3.5S.8 7.5 1.3 6c.5-1.6 1.4-2.9 2.8-3.8C5.4 1.3 7 .9 8.6 1m.5 12.9c1.3-.3 2.5-1 3.4-2.1c.8-1.1 1.3-2.4 1.2-3.8c0-1.6-.6-3.2-1.7-4.3c-1-1-2.2-1.6-3.6-1.7c-1.3-.1-2.7.2-3.8 1S2.7 4.9 2.3 6.3c-.4 1.3-.4 2.7.2 4q.9 1.95 2.7 3c1.2.7 2.6.9 3.9.6M7.9 7.5L10.3 5l.7.7l-2.4 2.5l2.4 2.5l-.7.7l-2.4-2.5l-2.4 2.5l-.7-.7l2.4-2.5l-2.4-2.5l.7-.7z" clip-rule="evenodd"/></svg> - error happened
+
+- <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.25 5.75v-4h-1.5v2.542c-1.145-1.359-2.911-2.209-4.84-2.209c-3.177 0-5.92 2.307-6.16 5.398l-.02.269h1.501l.022-.226c.212-2.195 2.202-3.94 4.656-3.94c1.736 0 3.244.875 4.05 2.166h-2.83v1.5h4.163l.962-.975V5.75zM8 14a2 2 0 1 0 0-4a2 2 0 0 0 0 4" clip-rule="evenodd"/></svg> - fetching started but got cancelled
+
+</details>
+
+Inline Edit Provider: <NOT-SET>
+
+Chat Endpoint
+```
+Model name: <NOT-SET>
+URL: <NOT-SET>
+```
+Opportunity ID: icr-ec2859f8-83dc-44e5-b481-aa31c761ab09
+## Prompt (not cached)
+<details><summary>Click to view</summary>
+
+````
+PREFIX
+---
+2026-06-18 00:19:04.189 [info] Fetched model metadata in 712ms 32c07cf9-0867-40e7-a730-ac4ff3107aa3
+2026-06-18 00:19:04.324 [info] ccreq:58e130af.copilotmd | markdown
+2026-06-18 00:19:07.908 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:19:07.913 [info] request done: requestId: [33425d2d-3e8d-45d3-bc29-205f6f7519e5] model deployment ID: []
+2026-06-18 00:19:07.915 [info] ccreq:badc2c5b.copilotmd | success | gpt-4o-mini-2024-07-18 | 3552ms | [title]
+2026-06-18 00:19:11.326 [info] ccreq:45015419.copilotmd | success | gpt-5-mini | 5988ms | [panel/editAgent]
+2026-06-18 00:19:13.383 [info] ccreq:d0fb1ad4.copilotmd | success | gpt-5-mini -> capi-cus-ptuc-h100-ib-gpt-5-mini-2025-08-07 | 1173ms | [panel/editAgent]
+2026-06-18 00:19:52.495 [info] ccreq:2c3ac249.copilotmd | success | gpt-5-mini | 967ms | [panel/editAgent]
+2026-06-18 00:19:52.575 [error] Error from tool read_file with args {"filePath":"target/jaguar2.xml","startLine":1,"endLine":400}: Invalid input path: target/jaguar2.xml. Be sure to use an absolute path.: Error: Invalid input path: target/jaguar2.xml. Be sure to use an absolute path.
+	at Tc (/home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/extensions/copilot/dist/extension.js:2181:1980)
+	at IMe.prepareInvocation (/home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/extensions/copilot/dist/extension.js:6143:4013)
+	at Ak.$prepareToolInvocation (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:655:5310)
+	at i._doInvokeHandler (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:157801)
+	at i._invokeHandler (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:157549)
+	at i._receiveRequest (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:156280)
+	at i._receiveOneMessage (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:155169)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:435:153244)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:837:9944)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at vc._receiveMessage (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:13405)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:10710)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at qI.acceptChunk (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:6305)
+	at up.value (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:5438)
+	at E._deliver (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at sD._processReadQueue (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:25402)
+	at sD.acceptFrame (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:25062)
+	at jI._acceptChunk (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:22734)
+	at file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:19307
+	at Socket.e (file:///home/erickson/.vscode-server/bin/6928394f91b684055b873eecb8bc281365131f1c/out/vs/workbench/api/node/extensionHostProcess.js:433:17539)
+	at Socket.emit (node:events:509:28)
+	at addChunk (node:internal/streams/readable:563:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+	at Readable.push (node:internal/streams/readable:394:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-06-18 00:19:54.940 [info] ccreq:1fc4eb60.copilotmd | success | gpt-5-mini | 2281ms | [panel/editAgent]
+2026-06-18 00:19:59.359 [info] ccreq:f7265426.copilotmd | success | gpt-5-mini | 4094ms | [panel/editAgent]
+2026-06-18 00:20:00.279 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-06-18 00:20:00.905 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:00.909 [info] request done: requestId: [a8ec80cc-82f5-4dc2-a9ab-889ac80c10d9] model deployment ID: []
+2026-06-18 00:20:00.910 [info] ccreq:6b6f33b2.copilotmd | success | gpt-4o-mini-2024-07-18 | 746ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:03.506 [info] ccreq:a356977c.copilotmd | success | gpt-5-mini | 2670ms | [panel/editAgent]
+2026-06-18 00:20:05.701 [info] ccreq:8ad117d7.copilotmd | success | gpt-5-mini | 945ms | [panel/editAgent]
+2026-06-18 00:20:16.231 [info] ccreq:1bdeaadc.copilotmd | success | gpt-5-mini | 10274ms | [panel/editAgent]
+2026-06-18 00:20:18.936 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:18.938 [info] request done: requestId: [37d846f7-e7fa-43d6-a472-0dc473f60ff7] model deployment ID: []
+2026-06-18 00:20:18.939 [info] ccreq:5775ab0b.copilotmd | success | gpt-4o-mini-2024-07-18 | 641ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:20.637 [info] ccreq:078485ca.copilotmd | success | gpt-5-mini | 2053ms | [panel/editAgent]
+2026-06-18 00:20:26.167 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:26.169 [info] request done: requestId: [0ed4a875-b2b0-4b34-81d6-0241f4b4b019] model deployment ID: []
+2026-06-18 00:20:26.170 [info] ccreq:91c1c56c.copilotmd | success | gpt-4o-mini-2024-07-18 | 5005ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:34.956 [info] ccreq:1a5aa45a.copilotmd | success | gpt-5-mini | 13630ms | [panel/editAgent]
+2026-06-18 00:20:35.718 [info] Logged in as ericksonlbs
+2026-06-18 00:20:36.216 [info] Got Copilot token for ericksonlbs
+2026-06-18 00:20:36.216 [info] Copilot Chat: 0.52.0, VS Code: 1.124.2
+2026-06-18 00:20:36.405 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent. Has token: true
+2026-06-18 00:20:36.405 [info] copilot token sku: monthly_subscriber_quota
+2026-06-18 00:20:36.405 [info] [code-referencing] Public code references are enabled.
+2026-06-18 00:20:36.622 [info] Fetched model metadata in 217ms 95eb04bc-7cb2-4fa9-bf12-69a05333e274
+2026-06-18 00:20:36.626 [info] ccreq:d439c03b.copilotmd | markdown
+2026-06-18 00:20:38.696 [info] ccreq:4a182b7f.copilotmd | success | gpt-5-mini | 3239ms | [panel/editAgent]
+2026-06-18 00:20:39.163 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:20:39.167 [info] request done: requestId: [fcad532e-2b49-42a9-a749-ea8536e5a015] model deployment ID: []
+2026-06-18 00:20:39.168 [info] ccreq:b1624fed.copilotmd | success | gpt-4o-mini-2024-07-18 | 676ms | [copilotLanguageModelWrapper]
+2026-06-18 00:20:40.798 [info] ccreq:8df51037.copilotmd | success | gpt-5-mini | 1669ms | [panel/editAgent]
+2026-06-18 00:21:10.225 [info] ccreq:e73672c7.copilotmd | success | gpt-5-mini | 3096ms | [panel/editAgent]
+2026-06-18 00:21:11.910 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:21:11.912 [info] request done: requestId: [b5583c01-7482-4339-a6dc-9234825ed71b] model deployment ID: []
+2026-06-18 00:21:11.913 [info] ccreq:34cdfa5e.copilotmd | success | gpt-4o-mini-2024-07-18 | 804ms | [copilotLanguageModelWrapper]
+2026-06-18 00:21:41.315 [info] ccreq:3839e075.copilotmd | success | gpt-5-mini | 1393ms | [panel/editAgent]
+2026-06-18 00:21:44.671 [info] ccreq:32d34d1f.copilotmd | success | gpt-5-mini | 3002ms | [panel/editAgent]
+2026-06-18 00:21:45.988 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:21:45.991 [info] request done: requestId: [897ad937-8ec1-4da1-9f82-e24ab0157570] model deployment ID: []
+2026-06-18 00:21:45.992 [info] ccreq:623ae820.copilotmd | success | gpt-4o-mini-2024-07-18 | 669ms | [copilotLanguageModelWrapper]
+2026-06-18 00:21:47.002 [info] ccreq:4791b610.copilotmd | success | gpt-5-mini | 1388ms | [panel/editAgent]
+2026-06-18 00:21:50.215 [info] ccreq:c769d908.copilotmd | success | gpt-5-mini | 2911ms | [panel/editAgent]
+2026-06-18 00:22:22.228 [info] ccreq:14c8224a.copilotmd | success | gpt-5-mini | 6254ms | [panel/editAgent]
+2026-06-18 00:22:29.969 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:22:29.975 [info] request done: requestId: [9c866f07-7477-485f-83e6-aa1268e49b28] model deployment ID: []
+2026-06-18 00:22:29.976 [info] ccreq:536ae414.copilotmd | success | gpt-4o-mini-2024-07-18 | 5118ms | [copilotLanguageModelWrapper]
+2026-06-18 00:23:01.418 [info] ccreq:1ebdd379.copilotmd | success | gpt-5-mini | 1519ms | [panel/editAgent]
+2026-06-18 00:23:08.783 [info] ccreq:0cc8ddea.copilotmd | success | gpt-5-mini | 6917ms | [panel/editAgent]
+2026-06-18 00:23:13.864 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:23:13.868 [info] request done: requestId: [6776c5c8-4e6a-45c7-bf72-fb91d96739b5] model deployment ID: []
+2026-06-18 00:23:13.869 [info] ccreq:bb8dcf2c.copilotmd | success | gpt-4o-mini-2024-07-18 | 1536ms | [copilotLanguageModelWrapper]
+2026-06-18 00:23:22.796 [info] ccreq:6bf21d2c.copilotmd | success | gpt-5-mini | 10134ms | [panel/editAgent]
+2026-06-18 00:23:24.758 [info] message 0 returned. finish reason: [stop]
+2026-06-18 00:23:24.760 [info] request done: requestId: [3a9fbb9c-20ca-424c-ac6c-dd0786ec5da2] model deployment ID: []
+2026-06-18 00:23:24.761 [info] ccreq:7ca39097.copilotmd | success | gpt-4o-mini-2024-07-18 | 689ms | [copilotLanguageModelWrapper]
+2026-06-18 00:23:24.909 [info] ccreq:1efd4539.copilotmd | success | gpt-5-mini | 1684ms | [panel/editAgent]
+2026-06-18 00:23:27.757 [info] ccreq:0d45e5d5.copilotmd | success | gpt-5-mini | 2646ms | [panel/editAgent]
+2026-06-18 00:23:28.296 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+
+---------------
+SUFFIX
+---
+
+---------------
+CONTEXT
+---
+Path: .agentBugFixDev/copilot.log
+---
+These are recently edited files. Do not suggest code that has been deleted.
+File: src/test/java/org/jsoup/helper/HttpConnectionTest.java
+--- a/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/test/java/org/jsoup/helper/HttpConnectionTest.java
++++ b/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/test/java/org/jsoup/helper/HttpConnectionTest.java
+@@ -249,13 +249,5 @@
+         }
+         assertTrue(threw);
+     }
+- --- IGNORE ---
+-    @Test public void headerWithSpecialCharacters() { --- IGNORE ---
+-        // Test for ArrayIndexOutOfBoundsException when adding header with special characters --- IGNORE ---
+-        // Issue: https://github.com/ci-cd-debugging/jsoup-ativ4-ex10/issues/1 --- IGNORE ---
+-        Connection.Request req = new HttpConnection.Request(); --- IGNORE ---
+-        req.addHeader("xxx", "é"); --- IGNORE ---
+-        assertEquals("é", req.header("xxx")); --- IGNORE ---
+-    } --- IGNORE ---
+ }
+ 
+File: src/test/java/org/jsoup/helper/HttpConnectionTest.java
+--- a/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/test/java/org/jsoup/helper/HttpConnectionTest.java
++++ b/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/test/java/org/jsoup/helper/HttpConnectionTest.java
+@@ -124,6 +124,14 @@
+         assertTrue(headers.get("Accept") == null);
+     }
+ 
++    @Test public void preservesNonUtf8HeaderValues() {
++        Connection.Request req = new HttpConnection.Request();
++
++        req.addHeader("xxx", "é");
++
++        assertEquals("é", req.header("xxx"));
++    }
++
+     @Test public void ignoresEmptySetCookies() {
+         // prep http response header map
+         Map<String, List<String>> headers = new HashMap<>();
+File: src/main/java/org/jsoup/helper/HttpConnection.java
+--- a/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/main/java/org/jsoup/helper/HttpConnection.java
++++ b/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/main/java/org/jsoup/helper/HttpConnection.java
+@@ -421,6 +421,12 @@
+                     return false;
+                 }
+ 
++                // if the expected continuation bytes would read past the end of the
++                // input, it's not valid UTF-8 (avoid ArrayIndexOutOfBoundsException)
++                if (end >= j) {
++                    return false;
++                }
++
+                 while (i < end) {
+                     i++;
+                     o = input[i];
+File: src/test/java/org/jsoup/helper/HttpConnectionTest.java
+--- a/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/test/java/org/jsoup/helper/HttpConnectionTest.java
++++ b/file:///home/erickson/jsoup/jsoup-ativ4-ex10/src/test/java/org/jsoup/helper/HttpConnectionTest.java
+@@ -249,5 +249,11 @@
+         }
+         assertTrue(threw);
+     }
++
++    @Test public void addHeaderSpecialChar() {
++        Connection.Request req = new HttpConnection.Request();
++        req.addHeader("xxx", "é");
++        assertEquals("é", req.header("xxx"));
++    }
+ }
+ 
+End of recent edits
+---------------
+FIM
+---
+Is Fim enabled: false
+---------------
+TOKENS
+---
+Prefix tokens: 5456
+Suffix tokens: 0
+---------------
+NEIGHBORS
+---
+
+---------------
+METADATA
+---
+{
+	"renderId": 53,
+	"rendererName": "c",
+	"tokenizer": "o200k_base",
+	"elisionTimeMs": 7.741043999791145,
+	"renderTimeMs": 8.052176999859512,
+	"componentStatistics": [
+		{
+			"componentPath": "$.f[0].QYt[0].hot",
+			"updateDataTimeMs": 0.021196999587118626
+		},
+		{
+			"componentPath": "$.f[0].QYt[1].xot",
+			"updateDataTimeMs": 0.009670999832451344
+		},
+		{
+			"componentPath": "$.f[0].QYt[2].got",
+			"updateDataTimeMs": 0.003333999775350094
+		},
+		{
+			"componentPath": "$.f[0].QYt[3].cot",
+			"updateDataTimeMs": 0.0030399998649954796
+		},
+		{
+			"componentPath": "$.f[0].QYt[4].Cot",
+			"updateDataTimeMs": 8.122446999885142
+		},
+		{
+			"componentPath": "$.f[1].L4r",
+			"updateDataTimeMs": 0.004224999807775021
+		},
+		{
+			"componentPath": "$.f[2].OYt[0].bot",
+			"updateDataTimeMs": 5.826767000369728
+		},
+		{
+			"componentPath": "$.f[3].N4r",
+			"updateDataTimeMs": 0.00989999994635582
+		},
+		{
+			"componentPath": "$.f[0].QYt[0].hot[0].lla[0].rp[0]",
+			"expectedTokens": 11,
+			"actualTokens": 11
+		},
+		{
+			"componentPath": "$.f[2].OYt[0].bot[0].tN[0].rp[0]",
+			"expectedTokens": 745,
+			"actualTokens": 745
+		},
+		{
+			"componentPath": "$.f[3].N4r[0].cY[0].rp[0]",
+			"expectedTokens": 4700,
+			"actualTokens": 4700
+		},
+		{
+			"componentPath": ""
+		}
+	],
+	"updateDataTimeMs": 14.000580999068916
+}
+---------------
+````
+
+</details>
+
+## Trace Diagram
+<details open><summary>Trace Diagram</summary>
+
+```
+
+Timeline (nested call hierarchy):
+────────────────────────────────────────────────────────────
+[  0ms] ├── [Ghost]
+        │   │   │   ↳ Started providing inline completion items
+[ 89ms] │   ├── [CopilotInlineCompletionItemProvider]
+        │   │   │   │   │   │   │   ↳ Starting ghost text computation, prefix length: 11804
+[ 89ms] │   │   ├── [provideInlineCompletionItems]
+        │   │   │   │   │   │   │   ↳ hasAcceptedCurrentCompletion: false
+[ 89ms] │   │   │   ├── [GhostTextProvider]
+        │   │   │   │   │   │   │   ↳ Ghost text strategy: blockMode=server, requestMultiline=true, stop=undefined, maxTokens=undefined
+[ 89ms] │   │   │   │   ├── [provideInlineCompletionItems]
+        │   │   │   │   │   │   │   ↳ Local cache lookup: no cached choices
+[ 91ms] │   │   │   │   │   ├── [GhostTextComputer#getGhostText]
+        │   │   │   │   │   │   │   ↳ Skipping wait for async completions
+[ 91ms] │   │   │   │   │   │   ├── [GhostTextComputer#getGhostTextWithoutAbortHandling]
+        │   │   │   │   │   │   │   ↳ Going to network, isCycling=false
+[ 91ms] │   │   │   │   │   │   │   ↳ Initiating network request for completions
+[304ms] │   │   │   │   │   │   │   ↳ Network request returned no results
+────────────────────────────────────────────────────────────
+```
+
+</details>
+
+## Trace
+<details><summary>Trace</summary>
+
+```
+[   0ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems] Started providing inline completion items
+[  89ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Starting ghost text computation, prefix length: 11804
+[  89ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] hasAcceptedCurrentCompletion: false
+[  89ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Ghost text strategy: blockMode=server, requestMultiline=true, stop=undefined, maxTokens=undefined
+[  89ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Local cache lookup: no cached choices
+[  91ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Skipping wait for async completions
+[  91ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Going to network, isCycling=false
+[  91ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Initiating network request for completions
+[ 304ms] [Ghost][CopilotInlineCompletionItemProvider][provideInlineCompletionItems][GhostTextProvider][provideInlineCompletionItems][GhostTextComputer#getGhostText][GhostTextComputer#getGhostTextWithoutAbortHandling] Network request returned no results
+```
+
+</details>

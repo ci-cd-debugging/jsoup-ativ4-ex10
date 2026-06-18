@@ -249,4 +249,10 @@ public class HttpConnectionTest {
         }
         assertTrue(threw);
     }
+
+    @Test public void addHeaderSpecialChar() {
+        Connection.Request req = new HttpConnection.Request();
+        req.addHeader("xxx", "é");
+        assertEquals("é", req.header("xxx"));
+    }
 }

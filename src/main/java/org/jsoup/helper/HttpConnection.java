@@ -421,6 +421,12 @@ public class HttpConnection implements Connection {
                     return false;
                 }
 
+                // if the expected continuation bytes would read past the end of the
+                // input, it's not valid UTF-8 (avoid ArrayIndexOutOfBoundsException)
+                if (end >= j) {
+                    return false;
+                }
+
                 while (i < end) {
                     i++;
                     o = input[i];

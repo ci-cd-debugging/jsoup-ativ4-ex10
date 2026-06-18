@@ -1,0 +1,75 @@
+> 🚨 Note: This log may contain personal information such as the contents of your files or terminal output. Please review the contents carefully before sharing.
+# title - badc2c5b
+
+- [Request Messages](#request-messages)
+  - [System](#system)
+  - [User](#user)
+- [Response](#response)
+
+## Metadata
+<pre><code>
+requestType      : ChatCompletions
+model            : gpt-4o-mini-2024-07-18
+maxPromptTokens  : 12285
+maxResponseTokens: 4096
+location         : 1
+otherOptions     : {"temperature":0.1,"stream":true}
+intent           : undefined
+startTime        : 2026-06-18T03:19:04.361Z
+endTime          : 2026-06-18T03:19:07.913Z
+duration         : 3552ms
+ourRequestId     : 33425d2d-3e8d-45d3-bc29-205f6f7519e5
+requestId        : 33425d2d-3e8d-45d3-bc29-205f6f7519e5
+serverRequestId  : 33425d2d-3e8d-45d3-bc29-205f6f7519e5
+timeToFirstToken : 3534ms
+resolved model   : gpt-4o-mini-2024-07-18
+usage            : {"completion_tokens":7,"completion_tokens_details":{"accepted_prediction_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":277,"prompt_tokens_details":{"cached_tokens":0},"total_tokens":284,"reasoning_tokens":0,"copilot_usage":{"token_details":[{"batch_size":1000000,"cost_per_batch":0,"token_count":277,"token_type":"input"},{"batch_size":1000000,"cost_per_batch":0,"token_count":0,"token_type":"cache_read"},{"batch_size":1000000,"cost_per_batch":0,"token_count":0,"token_type":"cache_write"},{"batch_size":1000000,"cost_per_batch":0,"token_count":7,"token_type":"output"}],"total_nano_aiu":0}}
+copilotUsage    : 0.00 AIC (0 nano-AIU)
+</code></pre>
+## Request Messages
+### System
+~~~md
+You are an expert in crafting ultra-compact titles for chatbot conversations. You are presented with a chat request, and you reply with only a brief title that captures the main topic of that request.
+Follow Microsoft content policies.
+Avoid content that violates copyrights.
+If you are asked to generate content that is harmful, hateful, racist, sexist, lewd, or violent, only respond with "Sorry, I can't assist with that."
+Keep your answers short and impersonal.
+Write the title in sentence case, not title case. Preserve product names, abbreviations, code symbols, and proper nouns.
+Aim for 3-6 words. Prefer the shortest accurate title.
+Drop articles like "a", "an", and "the" unless needed for clarity.
+Drop filler and generic framing like "help with", "question about", "request for", or "issue with".
+Prefer short, concrete synonyms and omit unnecessary words.
+Do not wrap the title in quotes or add trailing punctuation.
+Here are some examples of good titles:
+- Git rebase question
+- Install Python packages
+- LinkedList implementation location
+- Add VS Code tree view
+- React useState usage
+~~~
+
+### User
+~~~md
+Please write a brief title for the following request:
+
+Verify Issue: https://github.com/ci-cd-debugging/jsoup-ativ4-ex10/issues/1
+~~~
+
+
+
+## Response
+### Assistant
+~~~md
+Verify GitHub issue 1
+~~~
+
+
+<style>
+[id^="system"], [id^="user"], [id^="assistant"] {
+		margin: 4px 0 4px 0;
+}
+
+.markdown-body > pre {
+		padding: 4px 16px;
+}
+</style>
